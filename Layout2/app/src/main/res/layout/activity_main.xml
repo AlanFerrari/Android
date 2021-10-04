@@ -10,38 +10,43 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="20dp"
+        android:background="@drawable/fundo"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="45dp"
             android:gravity="center_horizontal"
             android:text="Welcome Back"
-            android:textSize="35sp" />
+            android:textColor="#fff"
+            android:textSize="40sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="60dp"
             android:gravity="center"
-            android:text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet possimus quia dignissimos, maiores commodi quaerat voluptatum dolore. "
+            android:text="Lorem ipsum, dolor amet consectetur elit. Amet quia dignissimos, maiores commodi quaerat voluptatum dolore. "
+            android:textColor="#56FFFFFF"
             android:textSize="17sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:drawableBottom="@drawable/ic_arrow_down_bold_circle_outline" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:gravity="center_horizontal"
             android:text="COMPANY NAME"
+            android:textColor="#fff"
             android:textSize="30sp" />
 
         <TextView
@@ -50,28 +55,69 @@
             android:layout_marginTop="5dp"
             android:gravity="center_horizontal"
             android:text="SOLOGAN HERE"
-            android:textSize="15sp" />
+            android:textColor="#56FFFFFF"
+            android:textSize="20sp" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign in"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
-            android:layout_marginTop="30dp"
-            android:textAllCaps="false"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginRight="70dp"
             android:background="@drawable/botao_redondo"
-            />
+            android:padding="15dp"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign up"
-            android:layout_marginLeft="60dp"
-            android:layout_marginRight="60dp"
+            android:layout_marginLeft="70dp"
             android:layout_marginTop="15dp"
-            android:textAllCaps="false"
+            android:layout_marginRight="70dp"
             android:background="@drawable/botao_redondo"
-            />
+            android:padding="15dp"
+            android:text="Sign up"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:text="Sign in with Social Media"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/facebook"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/twitter"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/linkedin"
+                android:padding="10dp" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
