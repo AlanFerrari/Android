@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#028DFB"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:text="Menu Principal"
+            android:textSize="35sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            //Xadrez
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#1F53B3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="160dp"
+                        android:src="@drawable/chess" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Jogue Xadrez"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            //Game
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="190dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                app:cardBackgroundColor="#1F53B3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="160dp"
+                        android:src="@drawable/game" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="Outros Jogos"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        //Estudo
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="190dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            app:cardBackgroundColor="#1F53B3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="160dp"
+                    android:src="@drawable/hat" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Estude"
+                    android:textColor="#fff"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>
