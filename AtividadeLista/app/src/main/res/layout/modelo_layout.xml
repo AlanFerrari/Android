@@ -6,27 +6,28 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#3F51B5"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="410dp"
             android:layout_height="350dp"
             android:background="@drawable/TombRaider"
-            android:scaleType="centerCrop"
+            android:scaleType="centerCrop" />
 
-
-            />
-
-        <RatingBar
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            style="@style/Widget.MaterialRatingBar.RatingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/Widget.AppCompat.RatingBar.Indicator"
             android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"/>
+            android:layout_marginTop="25dp"
+            android:progressBackgroundTint="#fff" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:orientation="horizontal">
 
             <TextView
@@ -35,19 +36,77 @@
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="25dp"
                 android:layout_weight="1"
-                android:text="Lara Croft"
+                android:text="Personagem:"
+                android:textColor="#fff"
                 android:textSize="25dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
                 android:layout_marginTop="25dp"
-                android:layout_marginLeft="70dp"
                 android:layout_weight="1"
-                android:text="Idade: 21 anos"
+                android:text="Lara Croft"
+                android:textColor="#fff"
                 android:textSize="25dp" />
 
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:text="Idade:"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="25dp"
+                android:text="21 anos"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:text="Nome do Jogo:"
+                android:layout_weight="1"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Tomb Raider"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+
 
     </LinearLayout>
 
