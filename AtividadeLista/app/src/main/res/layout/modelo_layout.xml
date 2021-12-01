@@ -10,12 +10,14 @@
         android:orientation="vertical">
 
         <ImageView
+            android:id="@+id/img"
             android:layout_width="410dp"
             android:layout_height="350dp"
             android:background="@drawable/TombRaider"
             android:scaleType="centerCrop" />
 
         <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:id="@+id/stars"
             style="@style/Widget.MaterialRatingBar.RatingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,12 +33,13 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/nome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="25dp"
                 android:layout_weight="1"
-                android:text="Personagem:"
+                android:text="@string/personagem"
                 android:textColor="#fff"
                 android:textSize="25dp" />
 
@@ -58,11 +61,12 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/idadePersonagem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="25dp"
-                android:text="Idade:"
+                android:text="@string/idade"
                 android:layout_weight="1"
                 android:textColor="#fff"
                 android:textSize="25dp" />
@@ -85,6 +89,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/nomeJogo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="25dp"

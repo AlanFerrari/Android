@@ -15,7 +15,7 @@
         android:gravity="center_horizontal"
         android:shadowColor="#3F51B5"
         android:shadowRadius="10"
-        android:text="Lista de Personagens"
+        android:text="@string/lista_de_personagens"
         android:textAllCaps="true"
         android:textColor="#009688"
         android:textSize="20sp"
