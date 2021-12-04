@@ -48,9 +48,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void criarJogos() {
 
+        //Criando a instância do objeto Jogos
         Jogos jogo = new Jogos("Tomb Rider", "Lara Croft", 21);
+        //Adicionando os valores no Array de
+        this.listarJogos.add(jogo);
         jogo = new Jogos("Street Fighter", "Ryu", 21);
+        this.listarJogos.add(jogo);
         jogo = new Jogos("Super Mario Bros", "Bowser", 31);
+        this.listarJogos.add(jogo);
     }
 
 }
