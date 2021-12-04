@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="350dp"
+    android:layout_height="470dp"
+    android:layout_gravity="center_horizontal">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -11,8 +12,8 @@
 
         <ImageView
             android:id="@+id/img"
-            android:layout_width="410dp"
-            android:layout_height="350dp"
+            android:layout_width="350dp"
+            android:layout_height="290dp"
             android:background="@drawable/TombRaider"
             android:scaleType="centerCrop" />
 
@@ -21,10 +22,9 @@
             style="@style/Widget.MaterialRatingBar.RatingBar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:progressBackgroundTint="#fff" />
-
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -33,21 +33,19 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/nome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginLeft="15dp"
                 android:layout_weight="1"
                 android:text="@string/personagem"
                 android:textColor="#fff"
                 android:textSize="25dp" />
 
             <TextView
+                android:id="@+id/txtNome"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginRight="10dp"
                 android:layout_weight="1"
                 android:text="Lara Croft"
                 android:textColor="#fff"
@@ -61,23 +59,30 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/idadePersonagem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
-                android:text="@string/idade"
+                android:layout_marginLeft="55dp"
                 android:layout_weight="1"
+                android:text="@string/idade"
+                android:textColor="#fff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/intIdade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_weight="1"
+                android:text="21"
                 android:textColor="#fff"
                 android:textSize="25dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="75dp"
-                android:layout_marginTop="25dp"
-                android:text="21 anos"
+                android:layout_marginRight="50dp"
                 android:layout_weight="1"
+                android:text="anos"
                 android:textColor="#fff"
                 android:textSize="25dp" />
 
@@ -89,28 +94,24 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/nomeJogo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
-                android:text="Nome do Jogo:"
+                android:layout_marginLeft="10dp"
                 android:layout_weight="1"
+                android:text="Nome do Jogo:"
                 android:textColor="#fff"
                 android:textSize="25dp" />
 
             <TextView
+                android:id="@+id/txtNomeJogo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_marginTop="25dp"
                 android:layout_weight="1"
                 android:text="Tomb Raider"
                 android:textColor="#fff"
                 android:textSize="25dp" />
 
         </LinearLayout>
-
 
 
     </LinearLayout>

@@ -1,19 +1,25 @@
 package br.com.etecia.atividadelista;
 
 public class Jogos {
-
+    //Criando as variáveis globais
     private String nomeJogo;
     private String nome;
     private int idade;
 
+    //Criando o método contrutor sem parâmetros com ALT + INSERT
+
     public Jogos() {
     }
+
+    //Criando o método contrutor com parâmetros com ALT + INSERT
 
     public Jogos(String nomeJogo, String nome, int idade) {
         this.nomeJogo = nomeJogo;
         this.nome = nome;
         this.idade = idade;
     }
+
+    //Criando os métodos GET e SET com ALT + INSERT
 
     public String getNomeJogo() {
         return nomeJogo;
